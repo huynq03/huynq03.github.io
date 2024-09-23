@@ -11,37 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Mechatronics Engineering, Hanoi University of Science and Technology, 2021 - Present
+  * CPA: 3.61
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2024: Team Member of IoT Challenge 2024
+  * FPT Software, Hanoi (Remote) (March 2024 - July 2024)
+  * Duties include: Researching and developing IoT solutions for building energy optimization systems
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2023: Intern
+  * Brickone Institute of Technology (May 2023 - January 2024)
+  * Duties included: Programming on Arduino, designing a basic web interface to control via Wi-Fi on ESP32
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Fall 2022 - Present: Research and Development Intern
+  * R&D Cimlab, Hanoi University of Science and Technology
+  * Duties include: Understanding the nature of machining methods, learning about graduation projects
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* English
+  * TOEIC 520
+* Programming Skills
+  * Fundamental knowledge of C++ and Python
+* CAD Skills
+  * Experienced in using SolidWorks, designing 3D models
+* Office Skills
+  * Proficient in Microsoft Office Suite (Word, Excel, PowerPoint)
+* Soft Skills
+  * Effective communication, teamwork, problem-solving
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -61,4 +61,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
