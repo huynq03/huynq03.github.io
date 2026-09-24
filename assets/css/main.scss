@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 { font-family: inherit; }
 
 /* One-page portfolio */
 .portfolio-site {
-  background: #fbfcfe; color: #1c2530; font: 24px/1.6 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+  background: #fbfcfe; color: #1c2530; font: 19.2px/1.6 'Manrope', system-ui, sans-serif; -webkit-font-smoothing: antialiased;
   margin: 0;
   *, *::before, *::after { box-sizing: border-box; }
   a { color: inherit; text-decoration: none; }
@@ -60,36 +60,36 @@ h1, h2, h3, h4, h5, h6 { font-family: inherit; }
 .portfolio-header {
   min-height: 68px; display: flex; align-items: center; justify-content: space-between;
   gap: 20px; border-bottom: 1px solid #e6ebf2;
-  nav { display: flex; flex-wrap: wrap; gap: 10px 30px; font-size: 22.5px; font-weight: 600; color: #5a6776; }
+  nav { display: flex; flex-wrap: wrap; gap: 10px 30px; font-size: 18px; font-weight: 600; color: #5a6776; }
 }
-.portfolio-brand { font-size: 24px; font-weight: 800; letter-spacing: .12em; }
+.portfolio-brand { font-size: 19.2px; font-weight: 800; letter-spacing: .12em; }
 .portfolio-hero {
   min-height: 420px; padding: 70px 0 60px;
   display: grid; grid-template-columns: minmax(0, 1fr) 180px; align-items: center; gap: 60px;
-  h1 { font-size: clamp(45px, 9vw, 60px); line-height: 1.08; letter-spacing: -.02em; font-weight: 800; margin-bottom: 14px; }
-  .portfolio-intro > p:not(.portfolio-role) { max-width: 870px; font-size: 28.5px; line-height: 1.6; margin: 32px 0 22px; color: #36414f; }
+  h1 { font-size: clamp(36px, 7.2vw, 48px); line-height: 1.08; letter-spacing: -.02em; font-weight: 800; margin-bottom: 14px; }
+  .portfolio-intro > p:not(.portfolio-role) { max-width: 700px; font-size: 22.8px; line-height: 1.6; margin: 32px 0 22px; color: #36414f; }
 }
-.portfolio-role { color: #1c2530; font-size: 28.5px; font-weight: 600; }
+.portfolio-role { color: #1c2530; font-size: 22.8px; font-weight: 600; }
 .portfolio-portrait { display: block; width: 180px; height: auto; }
-.portfolio-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 22.5px; font-weight: 600; color: #2b66d9; }
+.portfolio-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 18px; font-weight: 600; color: #2b66d9; }
 .portfolio-section {
   border-top: 1px solid #e6ebf2; padding: 24px 0 82px;
   display: grid; grid-template-columns: 29% 1fr; gap: 30px; scroll-margin-top: 30px;
-  h2 { margin: 0; font-size: 21px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #2b66d9; }
-  h3 { font-size: 30px; line-height: 1.4; font-weight: 700; margin-bottom: 8px; color: #1c2530; }
-  p { max-width: 915px; margin-bottom: 0; font-size: 24px; color: #5a6776; }
+  h2 { margin: 0; font-size: 16.8px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #2b66d9; }
+  h3 { font-size: 24px; line-height: 1.4; font-weight: 700; margin-bottom: 8px; color: #1c2530; }
+  p { max-width: 730px; margin-bottom: 0; font-size: 19.2px; color: #5a6776; }
 }
 .portfolio-project, .portfolio-experience {
-  display: grid; grid-template-columns: 150px 1fr; gap: 16px;
+  display: grid; grid-template-columns: 120px 1fr; gap: 16px;
   padding: 20px 0 24px; border-top: 1px solid #e6ebf2;
   &:first-child { border-top: 0; padding-top: 0; }
 }
-.portfolio-index { color: #2b66d9; font: 700 24px ui-monospace, Menlo, monospace; }
-.portfolio-section .portfolio-muted, .portfolio-muted { color: #8a94a3; font-size: 22.5px; }
+.portfolio-index { color: #2b66d9; font: 700 19.2px ui-monospace, Menlo, monospace; }
+.portfolio-section .portfolio-muted, .portfolio-muted { color: #8a94a3; font-size: 18px; }
 .portfolio-project .portfolio-muted { margin-top: 12px; }
-.portfolio-experience { grid-template-columns: 240px 1fr; }
+.portfolio-experience { grid-template-columns: 195px 1fr; }
 .portfolio-about p + p { margin-top: 14px; }
-.portfolio-footer { border-top: 1px solid #e6ebf2; padding: 22px 0 32px; color: #8a94a3; font-size: 19.5px; }
+.portfolio-footer { border-top: 1px solid #e6ebf2; padding: 22px 0 32px; color: #8a94a3; font-size: 15.6px; }
 @media (max-width: 800px) {
   .portfolio-hero { grid-template-columns: minmax(0, 1fr) 150px; gap: 30px; }
   .portfolio-portrait { width: 150px; }
@@ -98,13 +98,13 @@ h1, h2, h3, h4, h5, h6 { font-family: inherit; }
 @media (max-width: 520px) {
   .portfolio-container { width: min(100% - 36px, 1320px); }
   .portfolio-header { min-height: 0; align-items: start; flex-direction: column; gap: 8px; padding-block: 15px; }
-  .portfolio-header nav { width: 100%; justify-content: space-between; gap: 8px; font-size: clamp(18px, 4.5vw, 22.5px); }
-  .portfolio-site { font-size: 22.5px; }
+  .portfolio-header nav { width: 100%; justify-content: space-between; gap: 8px; font-size: clamp(14.4px, 3.6vw, 18px); }
+  .portfolio-site { font-size: 18px; }
   .portfolio-hero { min-height: 0; padding: 65px 0 55px; grid-template-columns: 1fr; gap: 30px; }
   .portfolio-portrait { width: 130px; }
-  .portfolio-hero h1 { font-size: clamp(42px, 12vw, 51px); }
-  .portfolio-hero .portfolio-intro > p:not(.portfolio-role) { font-size: 25.5px; margin-top: 28px; }
+  .portfolio-hero h1 { font-size: clamp(33.6px, 9.6vw, 40.8px); }
+  .portfolio-hero .portfolio-intro > p:not(.portfolio-role) { font-size: 20.4px; margin-top: 28px; }
   .portfolio-section { padding-bottom: 70px; }
-  .portfolio-section h3 { font-size: 28.5px; }
+  .portfolio-section h3 { font-size: 22.8px; }
   .portfolio-project, .portfolio-experience { grid-template-columns: 1fr; gap: 6px; }
 }
