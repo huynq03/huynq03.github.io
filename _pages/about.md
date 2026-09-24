@@ -30,10 +30,6 @@ redirect_from:
     </article>
     <article class="portfolio-project">
       <span class="portfolio-index">/ 02</span>
-      <div><h3>Autonomous Mobile Robot</h3><p>Autonomous navigation stack integrating mapping, localization, navigation, and an operator interface.</p><p class="portfolio-muted">ROS2 · Nav2 · SLAM · C++</p></div>
-    </article>
-    <article class="portfolio-project">
-      <span class="portfolio-index">/ 03</span>
       <div><h3>Modeling and Control of a Quadrotor</h3><p>Modeled and generated flight trajectories for a quadrotor UAV designed for object manipulation tasks.</p><p class="portfolio-muted">Quadrotor · Control · Trajectory Generation</p></div>
     </article>
   </div>
