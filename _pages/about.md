@@ -1,101 +1,59 @@
 ---
+layout: portfolio-home
 permalink: /
-title: "About me"
-author_profile: true
-redirect_from: 
+title: Nguyen Quang Huy
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hello, I am Nguyen Quang Huy, a student at Hanoi University of Science and Technology (HUST). Welcome to my personal page, where I share my academic journey, projects, and experiences.Thank you for visiting!
+<section class="portfolio-hero" aria-labelledby="hero-title">
+  <div>
+    <p class="portfolio-eyebrow">Robotics / Mechatronics</p>
+    <h1 id="hero-title">Nguyen Quang Huy</h1>
+    <p class="portfolio-hero__role">Robotics &amp; Mechatronics Engineer</p>
+  </div>
+  <div class="portfolio-hero__bottom">
+    <p>I build robotic systems across hardware, control, simulation and learning-based control.</p>
+    <div class="portfolio-links" aria-label="Contact links">
+      <a href="https://github.com/huynq03">GitHub ↗</a>
+      <a href="{{ '/files/Nguyen-Quang-Huy-CV.pdf' | relative_url }}">CV ↗</a>
+      <a href="mailto:{{ site.author.email }}">Email ↗</a>
+    </div>
+  </div>
+</section>
 
+<section id="projects" class="portfolio-section" aria-labelledby="projects-title">
+  <div class="portfolio-section__heading"><span class="portfolio-section__number">01</span><h2 id="projects-title">Projects</h2></div>
+  <div class="portfolio-section__body">
+    {% for project in site.data.projects %}
+    <article class="portfolio-project">
+      <span class="portfolio-project__index">/ {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+      <div>
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        <p class="portfolio-project__tech">{{ project.technology }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
+<section id="experience" class="portfolio-section" aria-labelledby="experience-title">
+  <div class="portfolio-section__heading"><span class="portfolio-section__number">02</span><h2 id="experience-title">Experience</h2></div>
+  <div class="portfolio-section__body">
+    <article class="portfolio-experience"><p class="portfolio-experience__date">Mar – Jul 2024</p><div><h3>IoT Challenge 2024 · Team Member</h3><p class="portfolio-experience__organization">FPT Software, Hanoi (remote)</p><p>Researched and developed IoT solutions for building energy optimization systems.</p></div></article>
+    <article class="portfolio-experience"><p class="portfolio-experience__date">May 2023 – Jan 2024</p><div><h3>Intern</h3><p class="portfolio-experience__organization">Brickone Institute of Technology</p><p>Programmed Arduino and designed a basic web interface for Wi-Fi control using ESP32.</p></div></article>
+    <article class="portfolio-experience"><p class="portfolio-experience__date">Fall 2022 – present*</p><div><h3>Research and Development Intern</h3><p class="portfolio-experience__organization">R&amp;D Cimlab, Hanoi University of Science and Technology</p><p>Studied machining methods and graduation projects.</p></div></article>
+    <p class="portfolio-note">* Dates reflect the existing CV and have not been recently verified.</p>
+  </div>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
+<section id="about" class="portfolio-section" aria-labelledby="about-title">
+  <div class="portfolio-section__heading"><span class="portfolio-section__number">03</span><h2 id="about-title">About</h2></div>
+  <div class="portfolio-section__body portfolio-about">
+    <p>I studied Mechatronics Engineering at Hanoi University of Science and Technology. My work spans robotics, control, reinforcement learning, embedded systems, and autonomous systems.</p>
+    <dl><div><dt>Education</dt><dd>B.S. in Mechatronics Engineering<br>Hanoi University of Science and Technology<br>2021 – present*</dd></div><div><dt>Interests</dt><dd>Robotics · Control · Reinforcement Learning · Embedded Systems · Autonomous Systems</dd></div></dl>
+    <p class="portfolio-note">* Education status reflects the existing CV and has not been recently verified.</p>
+  </div>
+</section>

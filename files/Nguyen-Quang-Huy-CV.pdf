@@ -1,0 +1,51 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1499 >>
+stream
+BT /F1 22 Tf 50 792 Td (Nguyen Quang Huy) Tj ET
+BT /F1 11 Tf 50 762 Td (Mechatronics Engineering | Hanoi, Vietnam) Tj ET
+BT /F1 10 Tf 50 744 Td (huyquangnguyenwork@gmail.com | github.com/huynq03) Tj ET
+BT /F1 13 Tf 50 702 Td (EDUCATION) Tj ET
+BT /F1 11 Tf 50 680 Td (B.S. in Mechatronics Engineering) Tj ET
+BT /F1 10 Tf 50 663 Td (Hanoi University of Science and Technology | 2021 - present \(per existing CV\)) Tj ET
+BT /F1 10 Tf 50 647 Td (CPA: 3.61) Tj ET
+BT /F1 13 Tf 50 612 Td (EXPERIENCE) Tj ET
+BT /F1 11 Tf 50 589 Td (IoT Challenge 2024 | Team Member) Tj ET
+BT /F1 10 Tf 50 572 Td (FPT Software, Hanoi \(remote\) | March - July 2024) Tj ET
+BT /F1 10 Tf 50 555 Td (Researched and developed IoT solutions for building energy optimization systems.) Tj ET
+BT /F1 11 Tf 50 521 Td (Intern) Tj ET
+BT /F1 10 Tf 50 504 Td (Brickone Institute of Technology | May 2023 - January 2024) Tj ET
+BT /F1 10 Tf 50 487 Td (Programmed Arduino and designed a basic web interface for Wi-Fi control using ESP32.) Tj ET
+BT /F1 11 Tf 50 453 Td (Research and Development Intern) Tj ET
+BT /F1 10 Tf 50 436 Td (R&D Cimlab, Hanoi University of Science and Technology) Tj ET
+BT /F1 10 Tf 50 419 Td (Fall 2022 - present \(per existing CV\)) Tj ET
+BT /F1 10 Tf 50 402 Td (Studied machining methods and graduation projects.) Tj ET
+BT /F1 13 Tf 50 365 Td (SKILLS) Tj ET
+BT /F1 10 Tf 50 343 Td (C++ and Python fundamentals | SolidWorks and 3D modeling | Microsoft Office) Tj ET
+BT /F1 10 Tf 50 326 Td (English: TOEIC 520) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001792 00000 n 
+trailer << /Root 1 0 R /Size 6 >>
+startxref
+1862
+%%EOF

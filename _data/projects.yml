@@ -1,0 +1,9 @@
+- title: Mini-Pi Humanoid Controller
+  description: A real-time FSM controller for a 12-DOF humanoid robot, including hardware abstraction, safety monitoring, joystick command handling, simulation support, and reinforcement-learning locomotion deployment.
+  technology: C++ · ROS1 · MuJoCo · ONNX Runtime · Reinforcement Learning
+- title: Autonomous Mobile Robot
+  description: Autonomous navigation stack integrating mapping, localization, navigation, and an operator interface.
+  technology: ROS2 · Nav2 · SLAM · C++
+- title: Omnidirectional Aerial Robot
+  description: PX4-based aerial robotics platform involving flight-control integration, embedded hardware, and control-system development.
+  technology: PX4 · C++ · Embedded Systems · Control

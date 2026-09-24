@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nguyen Quang Huy — Robotics & Mechatronics Engineer. Projects in robotic systems, control, simulation, and learning-based control.">
+    <title>Nguyen Quang Huy — Robotics & Mechatronics Engineer</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="portfolio-site">
+    <header class="portfolio-header">
+      <div class="portfolio-container portfolio-header__inner">
+        <a class="portfolio-brand" href="{{ '/' | relative_url }}" aria-label="Huy, home">HUY</a>
+        <nav class="portfolio-nav" aria-label="Main navigation">
+          {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% endfor %}
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="portfolio-container">
+      {{ content }}
+    </main>
+    <footer class="portfolio-footer portfolio-container">
+      <span>© {{ 'now' | date: '%Y' }} Nguyen Quang Huy</span>
+      <a href="mailto:{{ site.author.email }}">Email ↗</a>
+    </footer>
+  </body>
+</html>
