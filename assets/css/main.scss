@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
 /*
  *    Minimal Mistakes Jekyll Theme
  *
@@ -40,49 +42,54 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* Shared typography for the homepage and CV */
+body { background: #fbfcfe; color: #1c2530; font-family: 'Manrope', system-ui, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: inherit; }
+
 /* One-page portfolio */
 .portfolio-site {
-  background: #fcfcfa; color: #202320; font: 15px/1.55 Arial, Helvetica, sans-serif;
+  background: #fbfcfe; color: #1c2530; font: 15px/1.55 'Manrope', system-ui, sans-serif;
   margin: 0;
   *, *::before, *::after { box-sizing: border-box; }
   a { color: inherit; text-decoration: none; }
-  a:hover { color: #546a60; }
+  a:hover { color: #2b66d9; }
   a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
   h1, h2, h3, p { margin-top: 0; }
 }
 .portfolio-container { width: min(100% - 64px, 1100px); margin-inline: auto; }
 .portfolio-header {
   min-height: 68px; display: flex; align-items: center; justify-content: space-between;
-  gap: 20px; border-bottom: 1px solid #d9ddda;
-  nav { display: flex; flex-wrap: wrap; gap: 10px 30px; font-size: 13px; }
+  gap: 20px; border-bottom: 1px solid #e6ebf2;
+  nav { display: flex; flex-wrap: wrap; gap: 10px 30px; font-size: 13px; font-weight: 600; color: #5a6776; }
 }
 .portfolio-brand { font-size: 14px; font-weight: 800; letter-spacing: .12em; }
 .portfolio-hero {
   min-height: 420px; padding: 70px 0 60px;
   display: grid; grid-template-columns: minmax(0, 1fr) 180px; align-items: center; gap: 60px;
-  h1 { font-size: clamp(32px, 4vw, 42px); line-height: 1.12; letter-spacing: -.04em; font-weight: 600; margin-bottom: 12px; }
+  h1 { font-size: clamp(32px, 4vw, 42px); line-height: 1.12; letter-spacing: -.04em; font-weight: 800; margin-bottom: 12px; }
   .portfolio-intro > p:not(.portfolio-role) { max-width: 580px; font-size: 16px; margin: 32px 0 20px; }
 }
-.portfolio-role { color: #666c68; font-size: 17px; }
+.portfolio-role { color: #1c2530; font-size: 17px; font-weight: 600; }
 .portfolio-portrait { display: block; width: 180px; height: auto; }
 .portfolio-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 13px; }
 .portfolio-section {
-  border-top: 1px solid #d9ddda; padding: 24px 0 82px;
+  border-top: 1px solid #e6ebf2; padding: 24px 0 82px;
   display: grid; grid-template-columns: 29% 1fr; gap: 30px; scroll-margin-top: 30px;
-  h2 { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .12em; }
-  h3 { font-size: clamp(18px, 1.7vw, 20px); line-height: 1.3; letter-spacing: -.02em; font-weight: 600; margin-bottom: 8px; }
+  h2 { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .12em; color: #2b66d9; }
+  h3 { font-size: clamp(18px, 1.7vw, 20px); line-height: 1.3; letter-spacing: -.02em; font-weight: 700; margin-bottom: 8px; }
   p { max-width: 610px; margin-bottom: 0; }
 }
 .portfolio-project, .portfolio-experience {
   display: grid; grid-template-columns: 100px 1fr; gap: 16px;
-  padding: 20px 0 24px; border-top: 1px solid #d9ddda;
+  padding: 20px 0 24px; border-top: 1px solid #e6ebf2;
   &:first-child { border-top: 0; padding-top: 0; }
 }
-.portfolio-index, .portfolio-muted { color: #666c68; font-size: 13px; }
+.portfolio-index { color: #2b66d9; font-size: 13px; }
+.portfolio-muted { color: #5a6776; font-size: 13px; }
 .portfolio-project .portfolio-muted { margin-top: 12px; }
 .portfolio-experience { grid-template-columns: 155px 1fr; }
 .portfolio-about p + p { margin-top: 14px; }
-.portfolio-footer { border-top: 1px solid #d9ddda; padding: 22px 0 32px; color: #666c68; font-size: 12px; }
+.portfolio-footer { border-top: 1px solid #e6ebf2; padding: 22px 0 32px; color: #8a94a3; font-size: 12px; }
 @media (max-width: 800px) {
   .portfolio-hero { grid-template-columns: minmax(0, 1fr) 150px; gap: 30px; }
   .portfolio-portrait { width: 150px; }
