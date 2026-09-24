@@ -7,7 +7,8 @@ layout: compress
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Nguyen Quang Huy — Robotics & Mechatronics Engineer">
-  <title>Nguyen Quang Huy — Robotics &amp; Mechatronics Engineer</title>
+  <title>{% if page.url != "/" %}{{ page.title }} — {% endif %}Nguyen Quang Huy — Robotics &amp; Mechatronics Engineer</title>
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body class="portfolio-site">

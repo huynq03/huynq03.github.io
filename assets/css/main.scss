@@ -3,48 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
-
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
-
-@import "reset";
-@import "base";
-
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
-
-/* Shared typography for the homepage and CV */
-body { background: #fbfcfe; color: #1c2530; font-family: 'Manrope', system-ui, sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-family: inherit; }
+/* Base rules kept from the old theme */
+html { background: #fff; -webkit-text-size-adjust: 100%; }
+body { padding: 70px 0 9em; }
+::selection { color: #fff; background: #000; }
+a:focus { outline: 5px auto #f89406; outline-offset: -2px; }
+img { max-width: 100%; height: auto; border: 0; }
+p { margin-bottom: 1.3em; }
+p, span, img, h1, h2, header, a { transition: all .2s ease-in-out; }
 
 /* One-page portfolio */
 .portfolio-site {
@@ -69,13 +35,14 @@ h1, h2, h3, h4, h5, h6 { font-family: inherit; }
   h1 { font-size: clamp(36px, 7.2vw, 48px); line-height: 1.08; letter-spacing: -.02em; font-weight: 800; margin-bottom: 14px; }
   .portfolio-intro > p:not(.portfolio-role) { max-width: 700px; font-size: 22.8px; line-height: 1.6; margin: 32px 0 22px; color: #36414f; }
 }
+.portfolio-title { font-size: clamp(36px, 7.2vw, 48px); line-height: 1.08; letter-spacing: -.02em; font-weight: 800; padding: 70px 0 60px; margin: 0; }
 .portfolio-role { color: #1c2530; font-size: 22.8px; font-weight: 600; }
 .portfolio-portrait { display: block; width: 180px; height: auto; }
 .portfolio-links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 18px; font-weight: 600; color: #2b66d9; }
 .portfolio-section {
   border-top: 1px solid #e6ebf2; padding: 24px 0 82px;
   display: grid; grid-template-columns: 29% 1fr; gap: 30px; scroll-margin-top: 30px;
-  h2 { margin: 0; font-size: 16.8px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #2b66d9; }
+  h2 { margin: 0; font-size: 16.8px; line-height: 1.2; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #2b66d9; }
   h3 { font-size: 24px; line-height: 1.4; font-weight: 700; margin-bottom: 8px; color: #1c2530; }
   p { max-width: 730px; margin-bottom: 0; font-size: 19.2px; color: #5a6776; }
 }

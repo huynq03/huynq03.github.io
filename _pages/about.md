@@ -1,5 +1,4 @@
 ---
-layout: portfolio-home
 permalink: /
 title: Nguyen Quang Huy
 redirect_from:
