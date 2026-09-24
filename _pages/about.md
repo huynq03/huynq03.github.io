@@ -8,14 +8,17 @@ redirect_from:
 ---
 
 <section class="portfolio-hero" aria-labelledby="hero-title">
-  <h1 id="hero-title">Nguyen Quang Huy</h1>
-  <p class="portfolio-role">Robotics &amp; Mechatronics Engineer</p>
-  <p>I work on robotics, control, embedded systems, simulation, and learning-based systems.</p>
-  <div class="portfolio-links">
-    <a href="https://github.com/huynq03">GitHub ↗</a>
-    <a href="mailto:{{ site.author.email }}">Email ↗</a>
-    <a href="{{ '/cv/' | relative_url }}">CV ↗</a>
+  <div class="portfolio-intro">
+    <h1 id="hero-title">Nguyen Quang Huy</h1>
+    <p class="portfolio-role">Robotics &amp; Mechatronics Engineer</p>
+    <p>I work on robotics, control, embedded systems, simulation, and learning-based systems.</p>
+    <div class="portfolio-links">
+      <a href="https://github.com/huynq03">GitHub ↗</a>
+      <a href="mailto:{{ site.author.email }}">Email ↗</a>
+      <a href="{{ '/cv/' | relative_url }}">CV ↗</a>
+    </div>
   </div>
+  <img class="portfolio-portrait" src="{{ '/images/anhpf.jpg' | relative_url }}" alt="Nguyen Quang Huy" width="200" height="220">
 </section>
 
 <section id="projects" class="portfolio-section" aria-labelledby="projects-title">
@@ -50,7 +53,6 @@ redirect_from:
   <div class="portfolio-about">
     <p><strong>Education</strong><br>Bachelor of Mechatronics Engineering<br>Hanoi University of Science and Technology · 2021 — 2026<br>CPA: 3.62 / 4.0 · Degree Classification: Excellent</p>
     <p><strong>Research Exchange</strong><br>Shibaura Institute of Technology · Mar 2025 — Sep 2025<br>Research Exchange Program · Topic: Computer Vision</p>
-    <p class="portfolio-muted">Robotics · Control · Embedded Systems · Computer Vision · Reinforcement Learning · Autonomous Systems</p>
     <p class="portfolio-muted">Multiple academic scholarships, Hanoi University of Science and Technology</p>
   </div>
 </section>
