@@ -7,58 +7,45 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
-======
-* B.S. in Mechatronics Engineering, Hanoi University of Science and Technology, 2021 - Present
-  * CPA: 3.61
+=========
 
-Work experience
-======
-* Spring 2024: Team Member of IoT Challenge 2024
-  * FPT Software, Hanoi (Remote) (March 2024 - July 2024)
-  * Duties include: Researching and developing IoT solutions for building energy optimization systems
+**Bachelor of Mechatronics Engineering**<br>
+Hanoi University of Science and Technology · 2021 — 2026<br>
+CPA: 3.62 / 4.0 · Degree Classification: Excellent
 
-* Summer 2023: Intern
-  * Brickone Institute of Technology (May 2023 - January 2024)
-  * Duties included: Programming on Arduino, designing a basic web interface to control via Wi-Fi on ESP32
+Research Exchange
+=================
 
-* Fall 2022 - Present: Research and Development Intern
-  * R&D Cimlab, Hanoi University of Science and Technology
-  * Duties include: Understanding the nature of machining methods, learning about graduation projects
+**Research Exchange Program** · Shibaura Institute of Technology<br>
+Mar 2025 — Sep 2025 · Topic: Computer Vision
 
-Skills
-======
-* English
-  * TOEIC 520
-* Programming Skills
-  * Fundamental knowledge of C++ and Python
-* CAD Skills
-  * Experienced in using SolidWorks, designing 3D models
-* Office Skills
-  * Proficient in Microsoft Office Suite (Word, Excel, PowerPoint)
-* Soft Skills
-  * Effective communication, teamwork, problem-solving
+Experience
+==========
 
-<!-- Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
+**Team Member — IoT Challenge 2024 (Hardware)**<br>
+FPT Software, Hanoi · Mar 2024 — Jul 2024
+
+**Intern**<br>
+Brickone Institute of Technology · May 2023 — Jan 2024<br>
+Arduino programming and development of a basic web interface for ESP32 Wi-Fi control.
+
+**Student Researcher**<br>
+R&D CIMLab · Sep 2022 — 2026<br>
+Machining methods and SolidWorks 3D modeling.
+
+Graduation Project
+==================
+
+**Modeling and Control of a Quadrotor**<br>
+Modeled and generated flight trajectories for a quadrotor UAV designed for object manipulation tasks.
+
+Recognition
+===========
+
+Multiple academic scholarships, Hanoi University of Science and Technology.
+
+Technical Interests
+===================
+
+Robotics · Control · Embedded Systems · Computer Vision · Reinforcement Learning · Autonomous Systems

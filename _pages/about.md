@@ -10,7 +10,7 @@ redirect_from:
 <section class="portfolio-hero" aria-labelledby="hero-title">
   <h1 id="hero-title">Nguyen Quang Huy</h1>
   <p class="portfolio-role">Robotics &amp; Mechatronics Engineer</p>
-  <p>I work on robotics, control, simulation, and learning-based systems.</p>
+  <p>I work on robotics, control, embedded systems, simulation, and learning-based systems.</p>
   <div class="portfolio-links">
     <a href="https://github.com/huynq03">GitHub ↗</a>
     <a href="mailto:{{ site.author.email }}">Email ↗</a>
@@ -23,15 +23,15 @@ redirect_from:
   <div>
     <article class="portfolio-project">
       <span class="portfolio-index">/ 01</span>
-      <div><h3>Mini-Pi Humanoid Controller</h3><p>Real-time FSM control for a 12-DOF humanoid, with hardware abstraction, safety monitoring, joystick handling, simulation, and RL locomotion deployment.</p><p class="portfolio-muted">C++ · ROS1 · MuJoCo · ONNX Runtime · RL</p></div>
+      <div><h3>Mini-Pi Humanoid Controller</h3><p>Real-time FSM control for a 12-DOF humanoid robot, including hardware abstraction, safety monitoring, joystick handling, simulation, and reinforcement-learning policy deployment.</p><p class="portfolio-muted">C++ · ROS1 · MuJoCo · ONNX Runtime · RL</p></div>
     </article>
     <article class="portfolio-project">
       <span class="portfolio-index">/ 02</span>
-      <div><h3>Autonomous Mobile Robot</h3><p>Navigation stack integrating mapping, localization, autonomous navigation, and an operator interface.</p><p class="portfolio-muted">ROS2 · Nav2 · SLAM · C++</p></div>
+      <div><h3>Autonomous Mobile Robot</h3><p>Autonomous navigation stack integrating mapping, localization, navigation, and an operator interface.</p><p class="portfolio-muted">ROS2 · Nav2 · SLAM · C++</p></div>
     </article>
     <article class="portfolio-project">
       <span class="portfolio-index">/ 03</span>
-      <div><h3>Omnidirectional Aerial Robot</h3><p>PX4-based aerial platform involving flight-control integration, embedded hardware, and control-system development.</p><p class="portfolio-muted">PX4 · C++ · Embedded Systems · Control</p></div>
+      <div><h3>Modeling and Control of a Quadrotor</h3><p>Modeled and generated flight trajectories for a quadrotor UAV designed for object manipulation tasks.</p><p class="portfolio-muted">Quadrotor · Control · Trajectory Generation</p></div>
     </article>
   </div>
 </section>
@@ -39,16 +39,18 @@ redirect_from:
 <section id="experience" class="portfolio-section" aria-labelledby="experience-title">
   <h2 id="experience-title">02 / EXPERIENCE</h2>
   <div>
-    <article class="portfolio-experience"><span class="portfolio-muted">Spring 2024</span><div><h3>FPT Software</h3><p>IoT Challenge 2024 · Team Member</p></div></article>
-    <article class="portfolio-experience"><span class="portfolio-muted">Summer 2023</span><div><h3>Brickone Institute of Technology</h3><p>Intern</p></div></article>
-    <article class="portfolio-experience"><span class="portfolio-muted">Fall 2022 – Present</span><div><h3>R&amp;D Cimlab, HUST</h3><p>Research and Development Intern</p></div></article>
+    <article class="portfolio-experience"><span class="portfolio-muted">Mar 2024 — Jul 2024</span><div><h3>FPT Software, Hanoi</h3><p>Team Member — IoT Challenge 2024 · Hardware</p></div></article>
+    <article class="portfolio-experience"><span class="portfolio-muted">May 2023 — Jan 2024</span><div><h3>Brickone Institute of Technology</h3><p>Intern</p><p class="portfolio-muted">Arduino programming and development of a basic web interface for ESP32 Wi-Fi control.</p></div></article>
+    <article class="portfolio-experience"><span class="portfolio-muted">Sep 2022 — 2026</span><div><h3>R&amp;D CIMLab</h3><p>Student Researcher</p><p class="portfolio-muted">Machining methods and SolidWorks 3D modeling.</p></div></article>
   </div>
 </section>
 
 <section id="about" class="portfolio-section" aria-labelledby="about-title">
   <h2 id="about-title">03 / ABOUT</h2>
   <div class="portfolio-about">
-    <p>Mechatronics Engineering at Hanoi University of Science and Technology.</p>
-    <p class="portfolio-muted">Interests: Robotics · Control · Reinforcement Learning · Autonomous Systems</p>
+    <p><strong>Education</strong><br>Bachelor of Mechatronics Engineering<br>Hanoi University of Science and Technology · 2021 — 2026<br>CPA: 3.62 / 4.0 · Degree Classification: Excellent</p>
+    <p><strong>Research Exchange</strong><br>Shibaura Institute of Technology · Mar 2025 — Sep 2025<br>Research Exchange Program · Topic: Computer Vision</p>
+    <p class="portfolio-muted">Robotics · Control · Embedded Systems · Computer Vision · Reinforcement Learning · Autonomous Systems</p>
+    <p class="portfolio-muted">Multiple academic scholarships, Hanoi University of Science and Technology</p>
   </div>
 </section>
